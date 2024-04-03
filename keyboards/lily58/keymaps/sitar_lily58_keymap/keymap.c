@@ -95,7 +95,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   OSM(MOD_LSFT),    KC_A,    HOME_R,  HOME_S,  HOME_T,    KC_G,          KC_M,    HOME_N,  HOME_E,  HOME_I,  KC_O,     KC_QUOT,
   KC_LCTL, KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,  KC_LCBR,  KC_RCBR, KC_K,    KC_H,    TD(SCLN),KC_DOT,  KC_SLSH,  KC_RSFT,
 
-            KC_LALT, KC_DEL, LT(_DW,KC_SPC),   KC_ESC,                   KC_ENT, OSL(_UP), KC_BSPC,  KC_RGUI
+            KC_LALT, KC_DEL, OSL(_DW),   KC_SPC,                   KC_ENT, OSL(_UP), KC_BSPC,  KC_RGUI
 ),
 // ~ # ( ) %  ||  ^ & U $ `
 // - * { } =  ||  X L D R X
