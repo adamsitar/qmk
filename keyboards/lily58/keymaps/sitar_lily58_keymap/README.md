@@ -1,0 +1,1 @@
+- both halves have to be flashed separately
