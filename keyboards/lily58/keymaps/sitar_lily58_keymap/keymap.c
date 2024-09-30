@@ -63,7 +63,7 @@ const uint16_t PROGMEM rbrc_combo[] = {KC_X, KC_C, COMBO_END};
 const uint16_t PROGMEM lbrc_combo[] = {KC_C, KC_D, COMBO_END};
 
 combo_t key_combos[] = {
-    COMBO(tab_combo, KC_TAB),
+    //COMBO(tab_combo, KC_TAB),
     //COMBO(backspace_combo, KC_BSPC),
     // COMBO(c_backspace_combo, LCTL(KC_BSPC)),
     // COMBO(esc_combo, KC_ESC),
