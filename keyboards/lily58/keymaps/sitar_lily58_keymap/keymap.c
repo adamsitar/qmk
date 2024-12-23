@@ -31,13 +31,13 @@ enum layers {
 // Tap Dance Definitions
 enum tap_dances {
   QESC,
-  SCLN
+  //SCLN
 };
 
 tap_dance_action_t tap_dance_actions[] = {
     // Tap once for Q, twice for ESC
     [QESC] = ACTION_TAP_DANCE_DOUBLE(KC_Q,  KC_ESC),
-    [SCLN] = ACTION_TAP_DANCE_DOUBLE(KC_COMM, KC_SCLN),
+    //[SCLN] = ACTION_TAP_DANCE_DOUBLE(KC_COMM, KC_SCLN),
 };
 
 
@@ -65,11 +65,11 @@ const uint16_t PROGMEM lbrc_combo[] = {KC_C, KC_D, COMBO_END};
 combo_t key_combos[] = {
     //COMBO(tab_combo, KC_TAB),
     //COMBO(backspace_combo, KC_BSPC),
-    // COMBO(c_backspace_combo, LCTL(KC_BSPC)),
-    // COMBO(esc_combo, KC_ESC),
+    //COMBO(c_backspace_combo, LCTL(KC_BSPC)),
+    //COMBO(esc_combo, KC_ESC),
 
     COMBO(exclamation_combo, KC_EXLM),
-    // COMBO(question_combo, KC_QUES),
+    //COMBO(question_combo, KC_QUES),
     //COMBO(colon_combo, KC_COLN),
     COMBO(underscore_combo, KC_UNDS),
     COMBO(pipe_combo, KC_PIPE),
