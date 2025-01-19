@@ -54,13 +54,13 @@ const uint16_t PROGMEM underscore_combo[] = {HOME_S, KC_D, COMBO_END};
 const uint16_t PROGMEM pipe_combo[] = {KC_M, HOME_N, COMBO_END};
 
 const uint16_t PROGMEM plus_combo[] = {HOME_T, KC_G, COMBO_END};
-const uint16_t PROGMEM equals_combo[] = {KC_H, KC_COMM, COMBO_END};
-const uint16_t PROGMEM minus_combo[] = {KC_COMM, KC_DOT,COMBO_END};
+const uint16_t PROGMEM minus_combo[] = {KC_H, KC_COMM, COMBO_END};
+const uint16_t PROGMEM equals_combo[] = {KC_COMM, KC_DOT,COMBO_END};
 
 const uint16_t PROGMEM backslash_combo[] = {KC_Y, HOME_I, COMBO_END};
 
-const uint16_t PROGMEM rbrc_combo[] = {KC_X, KC_C, COMBO_END};
-const uint16_t PROGMEM lbrc_combo[] = {KC_C, KC_D, COMBO_END};
+const uint16_t PROGMEM lbrc_combo[] = {KC_X, KC_C, COMBO_END};
+const uint16_t PROGMEM rbrc_combo[] = {KC_C, KC_D, COMBO_END};
 
 combo_t key_combos[] = {
     //COMBO(tab_combo, KC_TAB),
