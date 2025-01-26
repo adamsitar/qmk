@@ -54,8 +54,8 @@ const uint16_t PROGMEM underscore_combo[] = {HOME_S, KC_D, COMBO_END};
 const uint16_t PROGMEM pipe_combo[] = {KC_M, HOME_N, COMBO_END};
 
 const uint16_t PROGMEM plus_combo[] = {HOME_T, KC_G, COMBO_END};
-const uint16_t PROGMEM minus_combo[] = {KC_H, KC_COMM, COMBO_END};
-const uint16_t PROGMEM equals_combo[] = {KC_COMM, KC_DOT,COMBO_END};
+const uint16_t PROGMEM equals_combo[] = {KC_H, KC_COMM, COMBO_END};
+const uint16_t PROGMEM minus_combo[] = {KC_COMM, KC_DOT,COMBO_END};
 
 const uint16_t PROGMEM backslash_combo[] = {KC_Y, HOME_I, COMBO_END};
 
@@ -71,15 +71,15 @@ combo_t key_combos[] = {
     COMBO(exclamation_combo, KC_EXLM),
     //COMBO(question_combo, KC_QUES),
     //COMBO(colon_combo, KC_COLN),
-    COMBO(underscore_combo, KC_UNDS),
-    COMBO(pipe_combo, KC_PIPE),
+    //COMBO(underscore_combo, KC_UNDS),
+    //COMBO(pipe_combo, KC_PIPE),
 
 
     COMBO(plus_combo, KC_PLUS),
     COMBO(equals_combo, KC_EQL),
     COMBO(minus_combo, KC_MINS),
 
-    COMBO(backslash_combo, KC_BSLS),
+    //COMBO(backslash_combo, KC_BSLS),
 
     COMBO(rbrc_combo, KC_RBRC),
     COMBO(lbrc_combo, KC_LBRC),
@@ -90,7 +90,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
  [_ZRO] = LAYOUT(
   KC_ESC,   KC_1,   KC_2,    KC_3,    KC_4,    KC_5,                     KC_6,    KC_7,    KC_8,    KC_9,    KC_0,     KC_GRV,
-  KC_TAB,   KC_Q,   KC_W,    KC_F,    KC_P,    KC_B,                     KC_J,    KC_L,    KC_U,    KC_Y,    KC_QUOT,  KC_QUOT,
+  KC_TAB,   KC_Q,   KC_W,    KC_F,    KC_P,    KC_B,                     KC_J,    KC_L,    KC_U,    KC_Y,    KC_BSLS,  KC_QUOT,
   KC_LSFT,  KC_A,   HOME_R,  HOME_S,  HOME_T,  KC_G,            KC_M,    HOME_N,  HOME_E,  HOME_I,  KC_O,    KC_SCLN,
   KC_LCTL,  KC_Z,   KC_X,    KC_C,    KC_D,    KC_V,  KC_LCBR,  KC_RCBR, KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_SLSH,  KC_RSFT,
 
@@ -98,12 +98,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 // ~ # ( ) %  ||  ^ & U $ `
 // - * { } =  ||  X L D R X
-// X @ [ ] X  ||  X : X X 
+// X @ [ ] X  ||  X X X X 
 [_UP] = LAYOUT(
   _______, _______, _______, _______, _______, _______,                     _______, _______, _______, _______, _______, _______,
   _______, KC_TILD, KC_HASH, KC_LPRN, KC_RPRN, KC_PERC,                     KC_CIRC, KC_AMPR, KC_UP,   KC_DLR,  KC_GRV,  XXXXXXX,
   _______, KC_MINS, KC_ASTR, KC_LCBR, KC_RCBR, KC_EQL,                      XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX, XXXXXXX,
-  _______, XXXXXXX, KC_AT,   KC_LBRC, KC_RBRC, XXXXXXX,  _______, _______,  XXXXXXX, KC_COLN, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+  _______, XXXXXXX, KC_AT,   KC_LBRC, KC_RBRC, XXXXXXX,  _______, _______,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
                              _______, _______, _______,  _______, _______,  _______, _______, _______
 ),
 [_DW] = LAYOUT(
