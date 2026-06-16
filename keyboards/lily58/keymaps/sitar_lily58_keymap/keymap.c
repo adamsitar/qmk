@@ -71,7 +71,7 @@ combo_t key_combos[] = {
     COMBO(exclamation_combo, KC_EXLM),
     //COMBO(question_combo, KC_QUES),
     //COMBO(colon_combo, KC_COLN),
-    //COMBO(underscore_combo, KC_UNDS),
+    COMBO(underscore_combo, KC_UNDS),
     //COMBO(pipe_combo, KC_PIPE),
 
 
